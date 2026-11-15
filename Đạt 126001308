@@ -1,0 +1,17 @@
+# 1. Khởi tạo kho lưu trữ Git tại thư mục hiện tại
+git init
+
+# 2. Thêm tất cả các file trong thư mục vào vùng chờ (Staging)
+git add .
+
+# 3. Lưu lại phiên bản kèm lời nhắn mô tả
+git commit -m "First commit"
+
+# 4. Đổi tên nhánh mặc định thành main
+git branch -M main
+
+# 5. Liên kết thư mục máy tính với repository trên GitHub (Thay URL của bạn vào)
+git remote add origin https://github.com
+
+# 6. Đẩy toàn bộ code lên GitHub
+git push -u origin main
